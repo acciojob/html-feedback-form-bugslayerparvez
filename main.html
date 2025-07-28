@@ -7,6 +7,20 @@
 </head>
 
 <body>
+	<form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" minlength="3" maxlength="50">
+        <br><br>
+        <label for="portfolio">Portfolio:</label>
+        <input type="url" name="portfolio" placeholder="Enter your portfolio URL" pattern="https?://.+" required>
+        <br><br>
+        <label for="favColor">Favorite Color:</label>
+        <input type="color" name="favColor" value="#ff0000" required>
+        <br><br>
+        <label for="likeness">Likeness:</label>
+        <input type="range" name="likeness" min="1" max="100" value="50" required> 
+        
+    </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
